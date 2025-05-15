@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | John Doe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">John Doe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="py-5 bg-light mt-5">
+        <div class="container py-5">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">My Projects</h2>
+                <p class="text-muted">Some of my recent work</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4" id="project1">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/300/200?random=6" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text">A full-featured online store with payment integration, product
+                                management, and user accounts.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-primary me-1">Node.js</span>
+                                <span class="badge bg-primary">MongoDB</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li><strong>Client:</strong> RetailCorp</li>
+                                <li><strong>Year:</strong> 2023</li>
+                                <li><strong>Status:</strong> Live</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm ms-2">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4" id="project2">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/300/200?random=7" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Task Management App</h5>
+                            <p class="card-text">A collaborative task management application with real-time updates and
+                                team features.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary me-1">Vue.js</span>
+                                <span class="badge bg-primary me-1">Firebase</span>
+                                <span class="badge bg-primary">Tailwind CSS</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li><strong>Client:</strong> Productivity Solutions</li>
+                                <li><strong>Year:</strong> 2022</li>
+                                <li><strong>Status:</strong> Live</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm ms-2">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4" id="project3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/300/200?random=8" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">A weather application that displays current conditions and forecasts
+                                for any location.</p>
+                            <div class="tech-used mb-3">
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-primary me-1">API</span>
+                                <span class="badge bg-primary">Bootstrap</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li><strong>Client:</strong> Personal Project</li>
+                                <li><strong>Year:</strong> 2021</li>
+                                <li><strong>Status:</strong> Live</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-outline-secondary btn-sm ms-2">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional projects can be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 John Doe. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-stack-overflow"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
